@@ -127,6 +127,7 @@ packages:
 # core openstack projects
 - project: nova
   conf: core
+  upstream: git://github.com/jzako/rdoinfo
   maintainers:
   - ndipanov@redhat.com
   - pbrady@redhat.com
